@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.btn-primary{
+    background: #FF5959;
+    border-radius: 5px;
+    padding: 20px 30px;
+    color: white;
+    font-size: 24px;
+    border: none;
+}
+/* -----header section------ */
+.main-header{
+    width: 100%;
+    height: 95vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/donation8.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    text-align: center;
+    padding: 150px;
+}
+.title{
+    font-size: 80px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: white;
+}
+.title-description{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    line-height: 28px;
+    margin: 25px 0 35px 0;
+}
+/* -------donation section--------- */
+.donate-section{
+    max-width: 1140px;
+    align-items: center;
+    margin: 0 auto ;
+    margin-top: 80px;
+}
+.donation{
+    margin-top: 150px;
+}
+.donate-title{
+    margin: 80px 0 20px 0;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+}
+.donate-paragraph{
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #707070;
+    margin-bottom: 60px;
+}
+.donate-amount{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0 50px 0;
+    gap:10px;
+    align-items: center;
+}
+.amount{
+    background: #FAFAFA;
+    border-radius: 5px;
+    height: 140px;
+    width: 150px;
+    text-align: center;
+}
+.taka{
+    margin-top: 55px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: #707070;
+}
+span{
+    color: #FF5959;
+}
+.special{
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    
+}
+.other-amount{
+    text-align: center;
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 18px;
+    color: #B3B3B3;
+}
+.btn-donation{
+    text-align: center;
+    margin: 20px 0 50px 0;
+}
+hr{
+    border: 1px solid #DADADA
+}
+/* --Our Donate Plan--- */
+.donate-plan{
+    margin: 180px 0 30px 0;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+}
+.plan-description-one{
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+    margin-bottom: 60px;
+}
+/* --------card----------- */
+.plan-container{
+    display: flex;
+    max-width: 1140px;
+    justify-content: space-around;
+    gap: 30px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.item-container{
+    background: #FEA1BF;
+    border-radius: 5px;
+    padding: 40px;
+    box-shadow: #707070;
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #121212;
+}
+.plan-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+.bg-color-one{
+    background:#5BC0F8;
+}
+.bg-color-two{
+    background-color:#FFB26B ; 
+}
